@@ -1,5 +1,5 @@
 body{
-	background-color: whitesmoke;
+	background-color: black;
 
 }
 
@@ -11,6 +11,10 @@ div.container-fluid{
 
 }
 
+.red{
+	color:red!important;
+	margin-left: 150px!important;
+}
 
 
 .photo{
@@ -18,37 +22,97 @@ div.container-fluid{
 	width: 150px;
 }
 
-section{
-	margin-top: 50px;
-	background-color: gray;
+.img1{
+	height: 64px;
+	width: 64px;
+	margin-top: 20px;
+
 }
 
+.img2{
+	height: 64px;
+	width: 64px;
+	background-color: whitesmoke;
+	margin-top: 20px;
+	
+}
+
+.img3{
+	height: 64px;
+	width: 64px;
+	background-color: whitesmoke;
+	margin-top: 20px;
+	
+}
+
+.img4{
+	height: 64px;
+	width: 64px;
+	background-color: whitesmoke;
+	margin-top: 20px;
+	
+}
+
+section{
+	margin-top: 20px;
+	background-color: grey;
+	color: red;
+}
+
+
+
+div.col-lg-9{
+	background-color: grey;
+
+}
 
 div.col-lg-8{
 	float:left;
-	color: green;
+	color: red;
+	
 }
 
 div.col-md-6{	
-	margin-left: 150px;
+	float:none;
+}
+
+div.col-md-4{
+	float: left;
+	margin: 0;
+	background-color: grey;
+	color: red;
+}
+
+.center{
+	margin-left: 50px!important;
+
+}
+div.col-md-4-offset-md-5{
+	background-color: black;
+	color:red;
+}
+
+.left{
+	margin-left: 50px!important;
 
 
 }
 
 .bottom{
-	margin-bottom: 20px;
+	margin-bottom: 5px;
+	background-color: grey;
 
 
 }
 
-.col{
+
+
+
+div.col-xs-4{
+	margin-top:20px;
 	float:right;
-	display: flex;
-}
 
-aside{
 
-	background-color: blue	
+
 
 }
-
