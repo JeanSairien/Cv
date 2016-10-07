@@ -92,6 +92,8 @@ div.col-md-4-offset-md-5{
 	color:red;
 }
 
+
+
 .left{
 	margin-left: 50px!important;
 
@@ -103,6 +105,26 @@ div.col-md-4-offset-md-5{
 	background-color: grey;
 
 
+}
+
+.sh{	
+	height: 50px;
+	width: 50px;
+}
+
+.like{	
+	height: 50px;
+	width: 50px;
+}
+
+.host{	
+	height: 50px;
+	width: 50px;
+}
+
+.2tech{	
+	height: 50px;
+	width: 150px;
 }
 
 
