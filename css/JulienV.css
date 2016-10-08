@@ -1,5 +1,11 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
 body{
-	background-color: black;
+	background:url("../img/circuit.jpg");
 
 }
 
@@ -11,9 +17,19 @@ div.container-fluid{
 
 }
 
+div.opac{
+
+	background:rgba(255,255,255, 0.6);
+
+}
+
 .red{
+	display:flex;
+	justify-content: center;
+	background-color: whitesmoke; 
 	color:red!important;
-	margin-left: 150px!important;
+	margin-right: 50px;
+	
 }
 
 
@@ -21,6 +37,9 @@ div.container-fluid{
 	height: 250px;
 	width: 150px;
 }
+
+
+
 
 .img1{
 	height: 64px;
@@ -55,22 +74,17 @@ div.container-fluid{
 
 section{
 	margin-top: 20px;
-	background-color: grey;
-	color: red;
+	background-color: whitesmoke;
+	color: #234CA5;
 }
 
 
 
 div.col-lg-9{
-	background-color: grey;
+	background-color: whitesmoke;
 
 }
 
-div.col-lg-8{
-	float:left;
-	color: red;
-	
-}
 
 div.col-md-6{	
 	float:none;
@@ -79,7 +93,7 @@ div.col-md-6{
 div.col-md-4{
 	float: left;
 	margin: 0;
-	background-color: grey;
+	background-color: whitesmoke;
 	color: red;
 }
 
@@ -87,10 +101,7 @@ div.col-md-4{
 	margin-left: 50px!important;
 
 }
-div.col-md-4-offset-md-5{
-	background-color: black;
-	color:red;
-}
+
 
 
 
@@ -107,6 +118,7 @@ div.col-md-4-offset-md-5{
 
 }
 
+<<<<<<< HEAD
 .sh{	
 	height: 50px;
 	width: 50px;
@@ -127,14 +139,90 @@ div.col-md-4-offset-md-5{
 	width: 150px;
 }
 
+=======
+div.col-md-6{
+	display:flex;
+	justify-content: space-around;
+
+}
+>>>>>>> 1d70cd28472a032e87b5eb1269224a2f1170abc3
 
 
 
 div.col-xs-4{
 	margin-top:20px;
 	float:right;
+}
+
+.list-group-item{
+
+	display: flex;
+	justify-content: center;
+	margin-bottom: 7px;
+
+}
+
+.coll{
+	padding-right: 25px;
 
 
+}
 
+div.col-xs-4.col-sm-2.sidebar-offcanvas{
+	margin-top: 20px;
+}
 
+.down{
+
+	margin-bottom: 7px;
+}
+
+.in{
+	height: 30px;
+	width: 30px;
+	display:flex;
+	justify-content: center;
+}
+
+.twit{
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+}
+
+.git{
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+}
+
+@media print{
+	a[href]:after {
+	    content: " (" attr(href) ")";
+	  }
+}
+
+footer{
+	
+	display: flex;
+	justify-content: center;
+	background-color: whitesmoke;
+	
+}
+
+p.nintendo{
+	height: 25px;
+	width: 150px;
+	display:flex;
+	justify-content: center;
+	color: red;
+	font-family:"VT323";
+	color:red;
+	box-shadow: -2px 1px 1px 6px ;
+	border-radius: 100px;
+	border-color: red;
+	background-color: white;
+	margin-top:50px;
 }
