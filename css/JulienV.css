@@ -6,6 +6,8 @@
 
 body{
 	background:url("../img/circuit.jpg");
+	background-size: cover;
+	background-attachment: fixed;
 
 }
 
@@ -24,6 +26,7 @@ div.opac{
 }
 
 .red{
+	float:left;
 	display:flex;
 	justify-content: center;
 	background-color: whitesmoke; 
@@ -118,7 +121,7 @@ div.col-md-4{
 
 }
 
-<<<<<<< HEAD
+
 .sh{	
 	height: 50px;
 	width: 50px;
@@ -139,13 +142,6 @@ div.col-md-4{
 	width: 150px;
 }
 
-=======
-div.col-md-6{
-	display:flex;
-	justify-content: space-around;
-
-}
->>>>>>> 1d70cd28472a032e87b5eb1269224a2f1170abc3
 
 
 
