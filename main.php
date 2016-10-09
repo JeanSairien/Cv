@@ -20,9 +20,9 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <link rel="shortcut icon" href="favicon.ico">  
+
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-
 	<link rel="stylesheet" type="text/css" href="css/JulienV.css">
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
@@ -41,13 +41,14 @@
 			<!--contact-->
 			<section class="col-lg-12 bottom">
 			<header>
-				<div class="col-md-12">
+				<div class="col-lg-12">
 					<div class="col-md-2">
 						<img src="img/me.jpg" class="photo" alt="" />
 
 					</div>
 					<p class="red">Developpeur Passionné</p>
 
+				
 				<article class="skills-section section">
                 <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
                 <div class="skillset">        
@@ -94,7 +95,6 @@
                 </div>  
             </article><!--//skills-section-->
 				</div>
-				
 			</header>
 				<p class="col-lg-4"> 
 					Vaupré Julien<br />
@@ -128,7 +128,7 @@
 
 			<section class="col-xs-2  side">
 			<!--sidebar hobbies-->
-			<div class="col-xs-6 col-sm-2 sidebar-offcanvas down" id="sidebar">
+			<div class="col-xs-6 col-sm-12 sidebar-offcanvas down" id="sidebar">
 				<div class="list-group">
 					<a href="#" class="list-group-item active">Hobbies</a>
 					<a href="#" class="list-group-item">Link</a>
@@ -140,7 +140,7 @@
 			</div><!--/span-->
 
 			
-			<div class="col-xs-4 col-sm-2 sidebar" id="sidebar">
+			<div class="col-xs-6 col-sm-12 sidebar" id="sidebar">
 				<div class="list-group">
 					<a href="#" class="list-group-item active">Mes Liens</a>
 
@@ -197,6 +197,11 @@
 					</div>
 
 				</div>
+				<!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 			</body>
 			
 			</html>
