@@ -5,7 +5,7 @@
 
 
 body{
-	background:url("../img/circuit.jpg");
+	background:url("../img/k.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 
@@ -25,24 +25,47 @@ div.opac{
 
 }
 
+
+
+
+
+.top{
+	display:flex;
+	justify-content: center;
+
+	float:right;
+
+
+}
+
 .red{
-	float:left;
+	
 	display:flex;
 	justify-content: center;
 	background-color: whitesmoke; 
 	color:red!important;
 	margin-right: 50px;
-	
+	margin-top: 10px;	
 }
 
 
 .photo{
-	height: 250px;
+	height: 230px;
 	width: 150px;
+	
 }
 
 
-
+.side{
+	background: #42A8C0;
+	margin-left: 10px;
+	right: 7px;
+	width: 15%;
+	height: 60%;
+	min-height: 934px;
+	color: #fff;
+	float: right;
+}
 
 .img1{
 	height: 64px;
@@ -145,13 +168,13 @@ div.col-md-4{
 
 
 
-div.col-xs-4{
+div.col-xs-2{
 	margin-top:20px;
 	float:right;
+	margin-left:12px;
 }
 
 .list-group-item{
-
 	display: flex;
 	justify-content: center;
 	margin-bottom: 7px;
@@ -166,11 +189,19 @@ div.col-xs-4{
 
 div.col-xs-4.col-sm-2.sidebar-offcanvas{
 	margin-top: 20px;
+
 }
 
 .down{
 
+	margin-bottom: 15px;
+
+}
+
+.down1{
+
 	margin-bottom: 7px;
+
 }
 
 .in{
@@ -201,7 +232,7 @@ div.col-xs-4.col-sm-2.sidebar-offcanvas{
 }
 
 footer{
-	
+	margin-top: 15px;
 	display: flex;
 	justify-content: center;
 	background-color: whitesmoke;
@@ -222,3 +253,4 @@ p.nintendo{
 	background-color: white;
 	margin-top:50px;
 }
+
