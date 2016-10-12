@@ -5,9 +5,7 @@
 
 
 body{
-	background:url("../img/proc.jpg");
-	background-size: cover;
-	background-attachment: fixed;
+	
 
 }
 
@@ -15,7 +13,7 @@ body{
 
 
 div.opac{
-	background:rgba(255,255,255, 0.6);
+	background:rgba(0,0,0, 0.6);
 
 }
 
@@ -48,7 +46,7 @@ div.opac{
 .photo{
 	margin-top:10px;
 	height: 230px;
-	width: 120px;
+	width: 180px;
 	
 }
 
@@ -60,7 +58,7 @@ div.opac{
 	right: 7px;
 	width: 20%!important;
 	height: 100%!important;
-	min-height: 788px;
+	min-height: 887px;
 	color: #fff;
 	float: right;
 }
@@ -154,7 +152,7 @@ div.opac{
 
 .bottom{
 	margin-bottom: 5px;
-	background-color: grey;
+	background-color: #42A8C0 ;
 
 
 }
@@ -290,9 +288,8 @@ p.nintendo{
 	width: 150px;
 	display:flex;
 	justify-content: center;
-	color: red;
+	color: blue;
 	font-family:"VT323";
-	color:red;
 	box-shadow: -2px 1px 1px 6px ;
 	border-radius: 100px;
 	border-color: red;

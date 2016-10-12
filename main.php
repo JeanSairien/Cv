@@ -43,8 +43,8 @@
 </head>
 
 <body>
-	<div class="opac">
-		<div class="container-fluid">
+    <div class="opac">
+        <div class="container-fluid">
 			
 			<!--contact-->
 			<section class="col-lg-12 col-sm-8 bottom">
@@ -76,7 +76,7 @@
 
 				
 				<article class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Languages</h2>
                 <div class="skillset">        
                     <div class="item">
                         <p class="level-title">PHP &amp; Symfony</p>
@@ -98,8 +98,7 @@
                         <p class="level-title">Angular</p>
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="10%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
+                            </div>             </div><!--//level-bar-->                                 
                     </div><!--//item-->
                     
                     <div class="item">
@@ -127,7 +126,7 @@
 				
 			</section>
 
-			<section class="col-xs-2  side">
+			<section class="container-fluid  side">
 			
 			<div class="wrapper">
         <!--<div class="sidebar-wrapper">-->
@@ -147,26 +146,7 @@
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@JulienV</a></li>
                 </ul>
             </div><!--//contact-container-->
-            <div class="col-xs-6">
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">Bep Electronique</h4>
-                    <h5 class="meta">SUlly NogentLeRotrou</h5>
-                    <div class="time">2004 - 2005</div>
-                </div><!--//item-->
-                <div class="item">
-                    <h4 class="degree">Magasinier</h4>
-                    <h5 class="meta">APFA Lorient(56)</h5>
-                    <div class="time">2009- 2010</div>
-                </div><!--//item-->
-                <div class="item">
-                    <h4 class="degree">Developper web</h4>
-                    <h5 class="meta">Code Academie Rennes</h5>
-                    <div class="time">2016</div>
-                </div><!--//item-->
-            </div><!--//education-container-->
-            </div>
+            
             
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Languages</h2>
@@ -175,21 +155,20 @@
                     <li>English <span class="lang-desc">(Professional)</span></li>
                     
                 </ul>
-            </div><!--//interests-->
             
-            <div class="interests-container container-block">
+            <!--//interests-->
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
                     <li>MAO/Art</li>
                     <li>Jeuxvideo</li>
                     
                 </ul>
-            </div><!--//interests-->
+            <!--//interests-->
             
         </div><!--//sidebar-wrapper-->
 			</section>
-			<section class="col-lg-9">		
-			<h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+	<section class="col-lg-9">		
+		<h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
                <div class="item">
                     <div class="meta">
                         <div class="upper-row">
@@ -205,20 +184,7 @@
                 </div><!--//item-->
 
                 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"> Developer Full-stack</h3>
-                            <div class="time">2015- Jusqu'a present</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Wanalike, Loudeac(22)</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Agence de developpement et d'hebergement bretonne </p>  
-                        <p>Developpement realiser sur mesure, en charge du front et de la gestion utilisateur en php/sql natif</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-
+                
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
@@ -234,21 +200,39 @@
                 </div><!--//item-->
 
                 
-              <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Developper Full-stack</h3>
-                            <div class="time">aout 2016 </div>
-                        </div><!--//upper-row-->
-                        <div class="company">Ebulition</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Developement collaboratif d'un site vitrine pour de la vente de vetements</p>  
-                        <p>En equipe nous avons developper un site vitrine pour la promotion des vetements de la cliente avec plusieurs galeries affichant ces produits. ce projet a été developpé en bootstrap/jquery Html5/Css3 PHP/sql </p>
-                    </div><!--//details-->
-                </div><!--//item-->
+                      <div class="item ">
+                            <div class="meta">
+                                <div class="upper-row">
+                                    <h3 class="job-title">Developper Full-stack</h3>
+                                    <div class="time">aout 2016 </div>
+                                </div><!--//upper-row-->
+                                <div class="company">Ebulition</div>
+                            </div><!--//meta-->
+                            <div class="details">
+                                <p>Developement collaboratif d'un site vitrine pour de la vente de vetements</p>  
+                                <p>En equipe nous avons developper un site vitrine pour la promotion des vetements de la cliente avec plusieurs galeries affichant ces produits. ce projet a été developpé en bootstrap/jquery Html5/Css3 PHP/sql </p>
+                            </div><!--//details-->
+                        </div><!--//item-->
 
+     <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Education</h2>
                 
+                <div class="item">
+                    <h4 class="degree">Bep Electronique</h4>
+                    <h5 class="meta">SUlly NogentLeRotrou</h5>
+                    <div class="time">2004 - 2005</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">Magasinier</h4>
+                    <h5 class="meta">APFA Lorient(56)</h5>
+                    <div class="time">2009- 2010</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">Developper web</h4>
+                    <h5 class="meta">Code Academie Rennes</h5>
+                    <div class="time">2016</div>
+                </div><!--//item-->
+            </section><!--//section-->        
               
 
 
